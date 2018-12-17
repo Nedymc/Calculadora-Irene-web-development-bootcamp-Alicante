@@ -1,0 +1,56 @@
+@charset "utf-8";
+	
+#calculadora{
+    background: rgb(233, 173, 9); 
+    border: 0;
+	<!-- introducimos el color de la calculadora y borde si quisieramos -->
+}
+
+#calculadora td{   
+    padding: 15px;
+	 <!-- tambien el tamaño -->
+	
+}
+
+.cajita_valor{
+    background-color: black;
+    color: rgb(255, 255, 255); 
+    border: 1px solid black; 
+    width: 210px; 
+    height: 32px; 
+    font-family: Arial, Helvetica; 
+    font-size: 22px; 
+    line-height: 26	px; 
+    text-align: right; 
+	
+	 <!-- acá el tamaño, color, borde y todo lo que queramos respecto a la cajita de resultado -->
+}
+
+.boton{
+    width: 35px; 
+	height: 35px;
+    border: 1px solid #000; 
+    font-family: Arial; 
+    font-size: 20px; 
+    cursor: hand; 
+    background-color: #fff;
+	<!-- aqui la confg. de los botones -->
+}
+
+.boton_largo{ 
+    width: 100px; 
+    border: 1px solid #000;  
+    font-family: Arial; 
+    font-size: 12px; 
+    cursor: hand; 
+    background-color: #fff;
+}
+.funcion{
+    font-weight: bold; 
+    color: #b00;
+	
+.publicidad{
+	color: blue
+  }
+}
+}
